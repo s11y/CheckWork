@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 
     var timer: Timer = Timer()
 
+    var number: Int = 0
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -34,6 +36,25 @@ class ViewController: UIViewController {
 
     func update() {
 
+        number = number + 1
+        if number > 2 {
+
+            number = 0
+        }
+
+        if number == 0 {
+
+            imageView.image = UIImage(named: "")
+
+        }else if number == 1 {
+
+            imageView.image = UIImage(named: "")
+
+        }else {
+
+            imageView.image = UIImage(named: "")
+
+        }
     }
 }
 
