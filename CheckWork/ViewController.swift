@@ -42,17 +42,17 @@ class ViewController: UIViewController {
 
         if number == 0 {
 
-            imageView.image = UIImage(named: "")
-            label.text = ""
+            imageView.image = UIImage(named: "CheckWork001.jpeg")
+            label.text = "チェックワーク"
 
         }else if number == 1 {
 
-            imageView.image = UIImage(named: "")
-            label.text = ""
+            imageView.image = UIImage(named: "CheckWork002.jpeg")
+            label.text = "学んでほしいこと"
         }else {
 
-            imageView.image = UIImage(named: "")
-            label.text = ""
+            imageView.image = UIImage(named: "CheckWork003.jpeg")
+            label.text = "学んでほしいこと2"
         }
     }
 }
