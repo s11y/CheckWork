@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        imageView.image = UIImage(named: "")
+        label.text = ""
         timer = Timer.scheduledTimer(timeInterval: 3,
                                      target: self,
                                      selector: #selector(self.update),
