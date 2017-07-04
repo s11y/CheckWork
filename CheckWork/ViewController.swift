@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     var timer: Timer = Timer()
 
     var number: Int = 0
+    let images: [UIImage] = []
+    let titles: [String] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,20 +44,8 @@ class ViewController: UIViewController {
             number = 0
         }
 
-        if number == 0 {
-
-            imageView.image = UIImage(named: "")
-            label.text = ""
-
-        }else if number == 1 {
-
-            imageView.image = UIImage(named: "")
-            label.text = ""
-        }else {
-
-            imageView.image = UIImage(named: "")
-            label.text = ""
-        }
+        imageView.image = images[number]
+        label.text = titles[number]
     }
 }
 
