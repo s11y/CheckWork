@@ -12,6 +12,7 @@
 		39C16C0E1F0A9D2600FD357D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C16C0C1F0A9D2600FD357D /* Main.storyboard */; };
 		39C16C101F0A9D2600FD357D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C16C0F1F0A9D2600FD357D /* Assets.xcassets */; };
 		39C16C131F0A9D2600FD357D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C16C111F0A9D2600FD357D /* LaunchScreen.storyboard */; };
+		39C16C221F0B7DD400FD357D /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C16C211F0B7DD400FD357D /* Slide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		39C16C0F1F0A9D2600FD357D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39C16C121F0A9D2600FD357D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39C16C141F0A9D2600FD357D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C16C211F0B7DD400FD357D /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				39C16C0F1F0A9D2600FD357D /* Assets.xcassets */,
 				39C16C111F0A9D2600FD357D /* LaunchScreen.storyboard */,
 				39C16C141F0A9D2600FD357D /* Info.plist */,
+				39C16C211F0B7DD400FD357D /* Slide.swift */,
 			);
 			path = CheckWork;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C16C221F0B7DD400FD357D /* Slide.swift in Sources */,
 				39C16C0B1F0A9D2600FD357D /* ViewController.swift in Sources */,
 				39C16C091F0A9D2600FD357D /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +306,7 @@
 				39C16C191F0A9D2700FD357D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

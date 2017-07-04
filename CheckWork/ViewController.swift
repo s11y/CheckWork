@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 
     var number: Int = 0
 
-    let slides: [[String: Any]] = []
+    let slides: [Slide] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,8 +40,8 @@ class ViewController: UIViewController {
 
         number = number + 1
 
-        imageView.image = slides[number % 3]["image"] as? UIImage
-        label.text = slides[number % 3]["title"] as? String
+        imageView.image = slides[number % 3].image
+        label.text = slides[number % 3].title
     }
 }
 
