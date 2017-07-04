@@ -39,13 +39,9 @@ class ViewController: UIViewController {
     func update() {
 
         number = number + 1
-        if number > 2 {
 
-            number = 0
-        }
-
-        imageView.image = images[number]
-        label.text = titles[number]
+        imageView.image = images[number % 3]
+        label.text = titles[number % 3]
     }
 }
 
