@@ -45,15 +45,16 @@ class ViewController: UIViewController {
         if number == 0 {
 
             imageView.image = UIImage(named: "")
+            label.text = ""
 
         }else if number == 1 {
 
             imageView.image = UIImage(named: "")
-
+            label.text = ""
         }else {
 
             imageView.image = UIImage(named: "")
-
+            label.text = ""
         }
     }
 }
