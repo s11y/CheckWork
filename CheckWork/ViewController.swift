@@ -19,6 +19,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Timer書く前にひとまず写真とテキストを表示
+        // imageView.image = UIImage(named: "CheckWork001.jpeg")
+        // label.text = "チェックワーク"
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
         timer = Timer.scheduledTimer(timeInterval: 3,
                                      target: self,
