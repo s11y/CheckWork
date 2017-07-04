@@ -12,9 +12,9 @@
 		39C16C0E1F0A9D2600FD357D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C16C0C1F0A9D2600FD357D /* Main.storyboard */; };
 		39C16C101F0A9D2600FD357D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C16C0F1F0A9D2600FD357D /* Assets.xcassets */; };
 		39C16C131F0A9D2600FD357D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C16C111F0A9D2600FD357D /* LaunchScreen.storyboard */; };
-		39C16C1E1F0B3A3600FD357D /* CheckWork.001.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39C16C1B1F0B3A3600FD357D /* CheckWork.001.jpeg */; };
-		39C16C1F1F0B3A3600FD357D /* CheckWork.002.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39C16C1C1F0B3A3600FD357D /* CheckWork.002.jpeg */; };
-		39C16C201F0B3A3600FD357D /* CheckWork.003.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39C16C1D1F0B3A3600FD357D /* CheckWork.003.jpeg */; };
+		39C16C1E1F0B3A3600FD357D /* CheckWork001.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39C16C1B1F0B3A3600FD357D /* CheckWork001.jpeg */; };
+		39C16C1F1F0B3A3600FD357D /* CheckWork002.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39C16C1C1F0B3A3600FD357D /* CheckWork002.jpeg */; };
+		39C16C201F0B3A3600FD357D /* CheckWork003.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39C16C1D1F0B3A3600FD357D /* CheckWork003.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		39C16C0F1F0A9D2600FD357D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39C16C121F0A9D2600FD357D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39C16C141F0A9D2600FD357D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39C16C1B1F0B3A3600FD357D /* CheckWork.001.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CheckWork.001.jpeg; sourceTree = "<group>"; };
-		39C16C1C1F0B3A3600FD357D /* CheckWork.002.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CheckWork.002.jpeg; sourceTree = "<group>"; };
-		39C16C1D1F0B3A3600FD357D /* CheckWork.003.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CheckWork.003.jpeg; sourceTree = "<group>"; };
+		39C16C1B1F0B3A3600FD357D /* CheckWork001.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CheckWork001.jpeg; sourceTree = "<group>"; };
+		39C16C1C1F0B3A3600FD357D /* CheckWork002.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CheckWork002.jpeg; sourceTree = "<group>"; };
+		39C16C1D1F0B3A3600FD357D /* CheckWork003.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CheckWork003.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,9 @@
 		39C16C1A1F0B3A3600FD357D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				39C16C1B1F0B3A3600FD357D /* CheckWork.001.jpeg */,
-				39C16C1C1F0B3A3600FD357D /* CheckWork.002.jpeg */,
-				39C16C1D1F0B3A3600FD357D /* CheckWork.003.jpeg */,
+				39C16C1B1F0B3A3600FD357D /* CheckWork001.jpeg */,
+				39C16C1C1F0B3A3600FD357D /* CheckWork002.jpeg */,
+				39C16C1D1F0B3A3600FD357D /* CheckWork003.jpeg */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -143,9 +143,9 @@
 			files = (
 				39C16C131F0A9D2600FD357D /* LaunchScreen.storyboard in Resources */,
 				39C16C101F0A9D2600FD357D /* Assets.xcassets in Resources */,
-				39C16C201F0B3A3600FD357D /* CheckWork.003.jpeg in Resources */,
-				39C16C1E1F0B3A3600FD357D /* CheckWork.001.jpeg in Resources */,
-				39C16C1F1F0B3A3600FD357D /* CheckWork.002.jpeg in Resources */,
+				39C16C201F0B3A3600FD357D /* CheckWork003.jpeg in Resources */,
+				39C16C1E1F0B3A3600FD357D /* CheckWork001.jpeg in Resources */,
+				39C16C1F1F0B3A3600FD357D /* CheckWork002.jpeg in Resources */,
 				39C16C0E1F0A9D2600FD357D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +322,7 @@
 				39C16C191F0A9D2700FD357D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
